@@ -1,0 +1,999 @@
+.mainHeader, .headerText{
+    width: 90%;
+    padding-left: 60px;
+}
+
+.inputDataBox {
+    width: 55%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.inputDataBox h3 {
+    margin-top: 20px;
+    color: #3c738d;
+}
+
+.inputCheckbox label {
+    color: #5da0bf;
+    padding-left: 30px;
+
+}
+
+.leftInfo,
+.rightInfo {
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+}
+
+.mainHeader h3 {
+    margin: 30px 0 20px 0px;
+    color: #3c738d;
+}
+
+.rightInfo h3 {
+    margin-left: 60px;
+}
+
+.inputBox {
+    width: 90%;
+    padding-left: 60px;
+}
+
+.inputHeader p {
+    width: 300px;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #7a7a7a;
+    /* font-size: 16px; */
+}
+.inputHeader span{
+    font-size: 14px;
+    font-family: 'FontAwesome';
+}
+
+
+.inputValue input,
+select {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    color: black;
+    width: 300px;
+    margin: 0;
+    outline: none;
+}
+
+.inputValue input[type=date]
+ {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 0px 10px;
+    color: black;
+    width: 300px;
+    margin: 0;
+    outline: none;
+}
+
+
+.inputValue input:focus {
+    border: 1px solid #dc3545;
+}
+
+.inputValue ::placeholder {
+    color: #afb4b6;
+}
+.inputBoxImg{
+    margin-bottom: 30px;
+}
+.inputBoxImg label{
+    padding-left: 62px;
+    margin-top: 40px;
+    border-radius: 3px;
+    color: #7a7a7a;
+    outline: none;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.inputBoxImg label span{
+    font-family: "fontAwesome";
+    font-size: 14px;
+}
+.inputBoxImg .text-danger{
+    padding-left: 62px;
+}
+
+.inputBoxImg input {
+    padding-left: 62px;
+    border-radius: 3px;
+    color: #5da0bf;
+    outline: none;
+}
+
+.inputCheckbox{
+    width: 100%;
+    display: flex;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+#checkBox input {
+    max-width: 40px;
+}
+
+.inputContainer .submitButton {
+    width: 20%;
+    margin: auto;
+}
+
+.inputContainer .submitButton button {
+    width: 300px;
+    padding: 8px 20px;
+    margin: 30px 0 40px 0;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    background-color: #dc3545;
+}
+
+.inputContainer .submitButton button:hover {
+    /* background-color: #518aa5; */
+    outline: none;
+}
+
+.inputContainer .submitButton button:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+
+}
+
+/* for confirm page */
+.confirmBox {
+    width: 100%;
+    overflow: hidden;
+}
+
+.arresteeConfirmInfo,
+.InformerConfirmInfo {
+    width: 50%;
+    float: left;
+    font-size: 20;
+    padding: 10px;
+}
+
+.InformerConfirmInfo h3 {
+    padding: 10px 10px 10px 0;
+}
+
+.arresteeConfirmInfo h3 {
+    margin-left: 130px;
+    padding: 10px 10px 10px 0;
+}
+
+.leftConfirmInfo {
+    width: 80%;
+    float: right;
+    margin: 4px;
+}
+
+.rightConfirmInfo {
+    width: 80%;
+    float: left;
+    margin: 4px;
+}
+
+.confirmHeaders {
+    float: left;
+    width: 230px;
+}
+
+.confirmValues {
+    float: left;
+}
+
+.confirmValues img {
+    width: 100px;
+    height: 100px;
+}
+
+.confirmButton button,
+.deleteButton button {
+    float: left;
+    width: 250px;
+    padding: 12px 20px;
+    margin: 20px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.confirmButton button {
+    color: white;
+    background-color: #518aa5;
+}
+
+.deleteButton button {
+    color: white;
+    background-color: rgb(185, 68, 68);
+}
+
+.confirmButton button:hover {
+    background-color: #3c738d;
+    outline: none;
+}
+
+.deleteButton button:hover {
+    background-color: rgb(146, 45, 45);
+    outline: none;
+
+}
+
+/* for profile page */
+/* .profileBody {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f4f4f4;
+}
+.profileHeaders span {
+    color:black;
+}
+
+.profilePicture,
+.profileDetail {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.profileDetail h3 {
+    margin: 20px 0 30px 0;
+}
+
+.profilePicture img {
+    float: right;
+    width: 420px;
+    height: auto;
+    margin: 53px;
+}
+
+.profilePicture img:hover {
+    box-shadow: 0 0 20px 5px rgba(39, 40, 41, 0.5);
+}
+
+.profileDetailBox {
+    margin: 24px 0 24px 0;
+}
+
+.profileHeaders {
+    width: 40%;
+    float: left;
+}
+
+.profileValues {
+    width: 50%;
+    overflow: hidden;
+}
+
+.profileValues span {
+    color: black;
+    border-bottom: 1px solid red;
+    padding: 0 5px 0 5px;
+} */
+
+ .profileBody {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    padding-top: 120px;
+}
+.TopSection {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.TopSection h3, h4 {
+    font-weight: 600;
+}
+.profilePicture{
+    max-width: 170px;
+    margin-top: 20px;
+}
+
+.profilePicture img{
+    border-radius: 2%;
+    -webkit-border-radius: 2%;
+    -moz-border-radius: 2%;
+    -ms-border-radius: 2%;
+    -o-border-radius: 2%;
+}
+
+.profileInfo {
+    padding: 10px 0 25px 50px;
+
+}
+
+.profileStatus{
+    padding-top: 15px;
+
+}
+.profileStatus p {
+    font-size: 15px;
+}
+
+.bottomWarp{
+    display: flex;
+    justify-content: center;
+}
+.bottomSection{
+    width: 60%;
+    margin-left: 20%;
+}
+
+/* .profileInfo span{
+    color: ;
+} */
+
+.profileDetail{
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+}
+.profileDetail p{
+    width: 50%;
+    font-size: 15px;
+}
+.profileDetail .DetailText{
+    font-weight: 800;
+}
+
+.profileButton {
+    margin: 5px 0 20px 0;
+
+}
+
+.profileButton button {
+    width: 60%;
+    padding: 8px 10px;
+    margin: 30px 0 0 0;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    background-color: #dc3545;
+}
+
+.profileButton button:hover {
+    background-color:#be2b39;
+    outline: none;
+
+}
+
+/* for about us page */
+
+.aboutBody {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.StatusButton{
+    margin-top: 20px;
+}
+
+.StatusButton button{
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    background-color: #dc3545;
+    outline: none;
+}
+
+.StatusButton button:hover {
+    background-color:#be2b39;
+    outline: none;
+
+}
+.modal-header .close{
+    margin-top: -30px !important;
+    font-size: 25px !important;
+    outline: none;
+}
+
+.modal-footer .ChangeButton{
+    padding: 6px 12px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    background-color: #dc3545;
+    outline: none;
+}
+
+.modal-footer .ChangeButton:hover {
+    background-color:#be2b39;
+    outline: none;
+
+}
+
+.modal.in .modal-dialog{
+    transform: translate(0px,80px);
+    -webkit-transform: translate(0px,80px);
+    -moz-transform: translate(0px,80px);
+    -ms-transform: translate(0px,80px);
+    -o-transform: translate(0px,80px);
+}
+.form-group label{
+    font-weight: normal;
+}
+
+
+.contactUs {
+    overflow: hidden;
+    margin: auto;
+    max-width: 500px;
+    background-color: rgb(168, 164, 164);
+    border-radius: 7px;
+    padding: 20px;
+
+}
+
+/* .contact-us-title {
+} */
+
+.contactUsQuestions {
+    width: 30%;
+    float: left;
+}
+
+.contactUsAnswers {
+    width: 65%;
+    overflow: hidden;
+}
+
+.contactUsHeaders {
+    margin: 20px 0 20px 0;
+}
+
+.contactUsValues input,
+textarea {
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    color: black;
+    width: 300px;
+    margin: 0;
+    outline: none;
+}
+.inputValue textarea:focus{
+    border: 1px solid #dc3545;
+}
+.contactUsValues textarea {
+    height: 200px;
+    resize: none;
+}
+
+.contactUsSubmit {
+    width: 100%;
+}
+
+.contactUsSubmit button {
+    float: right;
+    margin: 0 24px 0 0;
+    padding: 12px 20px;
+    width: 65%;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    background-color: #5da0bf;
+}
+
+.contactUsSubmit button:hover {
+    background-color: #518aa5;
+    outline: none;
+}
+
+.contactUsValues input:focus {
+    border: 1px solid #5da0bf;
+}
+
+.contactUsValues ::placeholder {
+    color: #afb4b6;
+}
+
+.inputContainer {
+    background-color: #f4f4f4;
+    padding: 0 2rem;
+    padding-top: 130px;
+}
+
+@media (min-width: 2160px) {
+    .inputCheckbox{
+        width: 56%;
+    }
+}
+@media (max-width: 1360px) {
+    .inputDataBox{
+        width: 70%;
+    }
+    .inputContainer .submitButton{
+        width: 35%;
+    }
+
+}
+
+@media only screen and (max-width: 1360px) and (min-width: 1025px) {
+ .mainHeader ,.headerText ,.inputBox,.inputBoxImg label, .inputBoxImg input {
+     padding-left: 0px;
+ }
+ .rightInfo h3{
+     margin-left: 0px;
+ }
+}
+
+@media (max-width: 1250px) {
+    .inputCheckbox{
+        width: 66%;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1025px) {
+    .mainHeader, .headerText{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .inputValue input, select{
+        width: 90%;
+    }
+    .inputValue textarea{
+        width: 90% !important;
+    }
+    .inputValue input[type=date]{
+        width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 641px) {
+    .mainHeader, .headerText{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .inputCheckbox{
+        width: 90%;
+        padding-left: 10px;
+
+    }
+    .inputDataBox {
+        width: 100%;
+        margin: auto;
+    }
+
+    .inputDataBox h3 {
+        margin: 70px 0 20px 0;
+    }
+    .inputContainer .submitButton {
+        width: 45%;
+    }
+    .rightInfo h3 {
+        margin: 30px;
+    }
+
+    .inputBox {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .inputBox,
+    .inputBoxImg {
+        float: none;
+        padding-left: 20px;
+    }
+
+    .inputValue input,
+    select {
+        width: 100%;
+    }
+    .inputValue input[type=date]
+     {
+        width: 100%;
+    }
+    .inputValue textarea
+    {
+       width: 100%;
+   }
+    .inputBoxi {
+        margin-right: 0;
+    }
+    .inputBoxImg label{
+        padding-left: 20px;
+        margin-top: 40px;
+
+    }
+    .inputBoxImg .text-danger{
+        padding-left: 12px;
+    }
+    .inputBoxImg input {
+        padding-left: 20px;
+    }
+
+    .inputContainer   .submitButton {
+        width: 100%;
+        text-align: center;
+    }
+
+    .inputContainer   .submitButton button {
+         padding: 12px 20px;
+        margin: 30px 0 40px 0;
+    }
+
+    /* for profile page */
+    .profilePicture {
+        margin-top: 20px;
+    }
+    .bottomSection{
+        width: 80%;
+        margin-left: 22%;
+
+    }
+
+    .profileDetail {
+        width: 100%;
+        float: none;
+    }
+
+    .profileDetail h3 {
+        margin: 15px 0 20px 130px;
+        font-size: 300%;
+    }
+
+
+
+    .profileDetailBox {
+        margin: 24px 0 24px 100px;
+    }
+
+    .profileDetailBox span {
+        font-size: 170%;
+    }
+
+    .profileHeaders {
+        width: 50%;
+        float: left;
+    }
+
+    .profileValues {
+        width: 50%;
+    }
+    .modal.in .modal-dialog{
+        transform: translate(0px,80px);
+        -webkit-transform: translate(0px,80px);
+        -moz-transform: translate(0px,80px);
+        -ms-transform: translate(0px,80px);
+        -o-transform: translate(0px,80px);
+}
+}
+
+@media only screen and (max-width: 640px) and (min-width: 321px) {
+    .mainHeader, .headerText{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .inputCheckbox{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .inputDataBox {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .inputDataBox h3 {
+        margin: 70px 0 20px 0;
+    }
+
+    .rightInfo h3 {
+        margin: 0px;
+    }
+    .inputContainer .submitButton button{
+        width: 100%;
+    }
+
+    .leftInfo,
+    .rightInfo {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+    }
+
+    .inputBox {
+        width: 100%;
+    }
+    .inputValue input[type=date]
+    {
+       width: 100%;
+   }
+   .inputValue textarea
+   {
+      width: 100%;
+  }
+
+    .inputBox,
+    .inputBoxImg {
+        padding-left: 0;
+    }
+
+    .inputValue input,
+    select {
+        width: 100%;
+    }
+
+    .inputBoxImg label{
+        padding-left: 3px;
+        margin-top: 40px;
+    }
+
+    .inputBoxImg input {
+        padding-left: 3px;
+    }
+    .inputBoxImg .text-danger{
+        padding-left: 0px;
+    }
+
+    .inputContainer  .submitButton {
+         width: 40%;
+        text-align: center;
+    }
+
+    .inputContainer .submitButton button {
+        padding: 10px 15px;
+            margin: 30px 0 40px 0;
+    }
+
+    /* for profile page */
+    .profilePicture {
+        width: 100%;
+        float: none;
+    }
+    .bottomSection{
+        width: 85%;
+
+    }
+
+    .profileDetail {
+        width: 100%;
+        float: none;
+    }
+
+    .profileDetail h3 {
+        margin: 15px 0 20px 10px;
+        font-size: 30px;
+    }
+    .profileDetail p{
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .profilePicture img {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .profileInfo{
+        padding: 10px 0 25px 30px;
+    }
+
+    .profileDetailBox {
+        margin: 5px;
+    }
+
+    .profileDetailBox span {
+        font-size: 13px;
+    }
+
+    .profileHeaders {
+        width: 50%;
+        float: left;
+    }
+
+    .profileValues {
+        width: 50%;
+    }
+
+    /* for about */
+    .contactUs {
+        border-radius: 0;
+    }
+    .modal.in .modal-dialog{
+        transform: translate(0px,80px);
+        -webkit-transform: translate(0px,80px);
+        -moz-transform: translate(0px,80px);
+        -ms-transform: translate(0px,80px);
+        -o-transform: translate(0px,80px);
+}
+}
+
+@media (max-width: 500px) {
+    .mainHeader, .headerText{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .bottomSection{
+        width: 90%;
+        margin-left: 9%;
+
+    }
+}
+
+@media (max-width: 430px) {
+    .mainHeader, .headerText{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .inputCheckbox{
+        width: 100%;
+    }
+    .bottomSection{
+        width: 100%;
+        margin-left: 3%;
+        padding-left: 10px;
+
+    }
+
+    .TopSection{
+        width: 93%;
+        padding-left: 5px;
+
+    }
+    .profileInfo{
+        padding: 10px 0 25px 30px;
+
+    }
+    .profileButton button{
+        width: 70%;
+    }
+}
+@media (max-width: 370px) {
+    .mainHeader, .headerText{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .profileDetail .DetailText{
+        width: 45%;
+    }
+    .inputContainer{
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .mainHeader, .headerText{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .rightInfo h3 {
+        margin: 10px;
+    }
+
+    .inputDataBox {
+        width: 100%;
+        margin: 0;
+    }
+
+    .leftInfo,
+    .rightInfo {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+    }
+
+    .inputBox {
+        width: 95%;
+        margin: 10px;
+    }
+
+    .inputBox,
+    .inputBoxImg {
+        float: none;
+        padding-left: 0;
+    }
+
+    .inputValue input,
+    select {
+        width: 100%;
+    }
+
+    .inputBoxi {
+        margin-right: 0;
+    }
+
+    .inputBoxImg input {
+        padding-left: 20px;
+        margin-top: 40px;
+    }
+
+    .inputContainer .submitButton {
+     width: 70%;
+        text-align: center;
+    }
+
+    .inputContainer .submitButton button {
+         padding: 12px 20px;
+        margin: 30px 0 40px 0;
+        width: 100%;
+    }
+    .inputValue textarea{
+        width: 100%;
+    }
+
+    /* for profile page */
+    .profilePicture {
+        width: 100%;
+        float: none;
+    }
+
+    .profileDetail {
+        width: 100%;
+        float: none;
+    }
+
+    .profileDetail h3 {
+        margin: 15px 0 20px 10px;
+        font-size: 30px;
+    }
+
+    .profilePicture img {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .profileDetailBox {
+        margin: 5px;
+    }
+
+    .profileDetailBox span {
+        font-size: 15px;
+    }
+
+    .profileHeaders {
+        width: 50%;
+        float: left;
+    }
+
+    .profileValues {
+        width: 50%;
+    }
+
+    /* for about */
+    .contactUs {
+        border-radius: 0;
+    }
+}
+
+.empty-data p {
+    font-size: var(--normal-font-size) !important;
+}
+
+.error-section {
+    text-align: center;
+    padding-top: 5rem
+}
+
+.error-icon {
+    display: block;
+    margin: 1.6rem auto;
+    max-width: 100%;
+    max-height: 350px
+
+}
+
+#submit:disabled,
+#submit[disabled] {
+    cursor: not-allowed;
+    background-color: #6d6d6d;
+    color: white;
+}
